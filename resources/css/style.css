@@ -1,0 +1,103 @@
+html {
+  font-size: 18px;
+  font-family: helvetica;
+
+}
+header {
+  background-color: cadetblue;
+  /*flex commands*/
+  display: flex;
+  align-items: center;
+  height: 3rem;
+}
+header img {
+   height: 1.5rem;
+   padding: 0rem 1rem 0rem .5rem;
+}
+banner {
+   background-image: url("D:/Projects/tortise_optics/resources/media/mainbanner.png");
+   height: 30rem;
+   width: 100%;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+ }
+ banner div {
+   background-color: white;
+   color: black;
+   font-weight: bold;
+   width: 20rem;
+   padding: 2rem 3rem;
+ }
+section {
+  padding-top: 3rem;
+  /*flex commands*/
+  display: flex;
+  justify-content: space-around;
+}
+section .container {
+  height:14rem;
+  /*flex commands*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+section .image {
+  background-color: white;
+  height: 9rem;
+  width: 9rem;
+  background-size: cover;
+}
+section .item_pen {
+  background-image: url("D:/Projects/tortise_optics/resources/media/paper-icon.png");
+}
+section .item_glasses {
+  background-image: url("D:/Projects/tortise_optics/resources/media/ruler-icon.png");
+}
+section .item_watch {
+  background-image: url("D:/Projects/tortise_optics/resources/media/truck-icon.png");
+}
+section .item {
+  height:12rem;
+  width:100%;
+  background-color: white;
+  /*flex commands*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .special {
+  /*needs better name XD*/
+  width: 30%;
+}
+
+.location {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  /*flex commands*/
+  display: flex;
+  justify-content: space-around;
+}
+.location .container{
+  width: 35%;
+}
+.location .item {
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
+  height: 3rem;
+  padding-left: 2rem;
+  /*flex commands*/
+  display: flex;
+  align-items: center;
+}
+footer {
+  height: 5rem;
+  width: 100%;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
